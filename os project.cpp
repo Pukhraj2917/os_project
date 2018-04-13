@@ -73,7 +73,7 @@ void findavgTime(Student Stu[], int n)
 // Driver code
 int main()
 {
-    Student Stu[] = {{1, 6}, {2, 8}, {3, 7}, {4, 3}};
+    Student Stu[] = {{1, 6}, {2, 8}, {3, 7}, {4, 3},{5,1},{6,2},{7,5},{8,4},{9,0},{10,9}};
     int n = sizeof Stu / sizeof Stu[0];
  
     // Sorting Students by burst time.
